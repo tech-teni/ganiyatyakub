@@ -112,6 +112,11 @@ body {
   /* transition-duration: 2s; */
   /* transform: translatex(100%); */
 }
+@media screen and (max-width: 700px) {
+  #ganiyat {
+    font-size: 20px;
+  }
+}
 .welcome {
   opacity: 1;
   animation: slideInFromRight 1s ease-in;
