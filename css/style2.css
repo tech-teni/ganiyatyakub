@@ -1,0 +1,170 @@
+body {
+  background-color: #ffffff;
+}
+
+/* welcome page */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromup {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+#skills-section h3 {
+  margin-bottom: 20px;
+}
+#skills {
+  margin-top: 10px;
+}
+
+#skills img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 1804px) {
+  #skills {
+  }
+  #skills img {
+    width: 150px;
+    height: 150px;
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 1604px) {
+  #skills {
+    /* display: flex; */
+  }
+  #skills img {
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #skills {
+    /* display: flex; */
+  }
+  #skills img {
+    width: 70px;
+    height: 70px;
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #skills {
+    /* display: flex; */
+  }
+  #skills img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  #skills img {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+#ganiyat {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+  /* margin-top: -12px; */
+  animation: slideInFromLeft 1s ease-in;
+
+  /* opacity: 0; */
+  /* transition-property: transform; */
+  /* transition-timing-function: ease-in; */
+  /* transition-duration: 2s; */
+  /* transform: translatex(100%); */
+}
+.welcome {
+  opacity: 1;
+  animation: slideInFromRight 1s ease-in;
+}
+.welcome-btn {
+  opacity: 1;
+  animation: slideInFromup 1s ease-in;
+}
+
+/* services */
+#services {
+}
+
+/* about */
+#about {
+  /* background-color: rgb(33, 37, 41); */
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* color: #ffffff; */
+  font-size: large;
+  margin-top: 10px;
+}
+@media screen and (min-width: 900px) {
+  #about p {
+    font-size: 25px;
+  }
+}
+#about img {
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.bold {
+  /* color: #f4623a; */
+  font-weight: bold;
+}
+
+#about-picture {
+  width: 80%;
+  height: 100%;
+}
+.masthead .h1 {
+  color: #1d809f;
+}
+#services p {
+  width: 80%;
+}
+
+.mini-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
