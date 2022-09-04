@@ -158,3 +158,69 @@ function fadeIn(el, display) {
     }
   })();
 }
+
+// more info button
+
+const moreInfoDiv = document.body.querySelector(".info-div");
+const caption = document.body.querySelector(".caption-content");
+const FullInfoDiv = document.body.querySelector(".full-info");
+const moreInfoButton = document.body.querySelector(".more-info");
+const cancelButtonDiv = document.body.querySelector(".cancel-button-container");
+
+cancelButtonDiv.addEventListener("click", (event) => {
+  moreInfoDiv.style.transform = "scale(1)";
+  moreInfoDiv.style.zIndex = "1";
+  caption.classList.toggle("hide-caption");
+  FullInfoDiv.classList.toggle("hide-caption");
+});
+moreInfoButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  moreInfoDiv.style.transform = "scale(1.1)";
+  moreInfoDiv.style.zIndex = "2";
+  caption.classList.toggle("hide-caption");
+  FullInfoDiv.classList.toggle("hide-caption");
+
+  console.log(caption);
+  // transform: scale();
+});
+
+const moreInfoDiv2 = document.body.querySelector(".info-div2");
+const caption2 = document.body.querySelector(".caption-content2");
+const FullInfoDiv2 = document.body.querySelector(".full-info2");
+const moreInfoButton2 = document.body.querySelector(".more-info2");
+const cancelButtonDiv2 = document.body.querySelector(
+  ".cancel-button-container2"
+);
+
+console.log(caption2);
+
+cancelButtonDiv2.addEventListener("click", (event) => {
+  event.preventDefault();
+  moreInfoDiv2.style.transform = "scale(1)";
+  moreInfoDiv2.style.zIndex = "1";
+  caption2.classList.toggle("hide-caption2");
+  FullInfoDiv2.classList.toggle("hide-caption2");
+});
+moreInfoButton2.addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log("clicked");
+
+  moreInfoDiv2.style.transform = "scale(1.1)";
+  moreInfoDiv2.style.zIndex = "2";
+  caption2.classList.toggle("hide-caption2");
+  FullInfoDiv2.classList.toggle("hide-caption2");
+
+  console.log(caption2);
+  // transform: scale();
+});
+
+// moreInfoDiv.addEventListener("click", (event) => {
+//   event.preventDefault();
+//   moreInfoDiv.style.transform = "scale(1)";
+//   moreInfoDiv.style.zIndex = "0";
+//   caption.classList.toggle("hide-caption");
+//   FullInfoDiv.classList.toggle("hide-caption");
+
+//   console.log(caption);
+//   // transform: scale();
+// });
