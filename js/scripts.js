@@ -37,17 +37,34 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
 
   // Collapse responsive navbar when toggler is visible
+  const collapse = document.body.querySelector(".collapse");
   const navbarToggler = document.body.querySelector(".navbar-toggler");
-  const responsiveNavItems = [].slice.call(
-    document.querySelectorAll("#navbarResponsive .nav-link")
-  );
-  responsiveNavItems.map(function (responsiveNavItem) {
-    responsiveNavItem.addEventListener("click", () => {
-      if (window.getComputedStyle(navbarToggler).display !== "none") {
-        navbarToggler.click();
-      }
-    });
+
+  console.log(collapse);
+  console.log(collapse.classList);
+
+  // collapse.addEventListener("click", (event) => {
+  //   event.preventDefault();
+  //   collapse.classList.toggle("show");
+  //   console.log(collapse.classList);
+  // });
+  navbarToggler.addEventListener("click", (event) => {
+    event.preventDefault();
+    collapse.classList.toggle("show");
+    console.log(collapse.classList);
   });
+  console.log(navbarToggler);
+
+  // const responsiveNavItems = [].slice.call(
+  //   document.querySelectorAll("#navbarResponsive .nav-link")
+  // );
+  // responsiveNavItems.map(function (responsiveNavItem) {
+  //   responsiveNavItem.addEventListener("click", () => {
+  //     if (window.getComputedStyle(navbarToggler).display !== "none") {
+  //       navbarToggler.click();
+  //     }
+  //   });
+  // });
 
   // Activate SimpleLightbox plugin for portfolio items
   new SimpleLightbox({
@@ -99,6 +116,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
       menuToggleTimes.classList.remove("fa-xmark");
       menuToggleTimes.classList.add("fa-bars");
     }
+    console.log("hello");
   }
 
   // Scroll to top button appear
