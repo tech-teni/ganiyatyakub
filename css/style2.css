@@ -212,7 +212,9 @@ body {
 }
 
 .full-info-btn,
-.full-info-btn2 {
+.view-project-btn,
+.full-info-btn2,
+.later-button {
   padding: 5px 10px;
   border: none;
   text-decoration: none;
@@ -220,7 +222,9 @@ body {
   margin-bottom: 20px;
 }
 .full-info-btn a,
-.full-info-btn2 a {
+.full-info-btn2 a,
+.view-project-btn a,
+.later-button a {
   text-decoration: none;
   color: black;
 }
@@ -274,4 +278,8 @@ body {
 .later-button:active {
   /* transform: scale(1.2); */
   color: #ecb807;
+}
+
+.full-info-btn {
+  background-color: #f0f0f0;
 }
