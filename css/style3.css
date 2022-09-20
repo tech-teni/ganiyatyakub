@@ -11971,3 +11971,10 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+@media screen and (min-width: 700px) {
+  .portfolio-item .caption .caption-content h2,
+  .portfolio-item .caption .caption-content .h2 {
+    font-size: 1.2rem;
+  }
+}
