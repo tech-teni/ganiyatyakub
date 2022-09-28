@@ -283,3 +283,12 @@ body {
 .full-info-btn {
   background-color: #f0f0f0;
 }
+
+.minor-project {
+  margin-bottom: 15px;
+}
+.minor-project img,
+.major-project img {
+  margin: 5px;
+  /* filter: brightness(60%); */
+}
