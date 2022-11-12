@@ -95,6 +95,9 @@ body {
     margin: 0;
     margin-bottom: 15px;
   }
+  .main-info {
+    margin-top: -2px;
+  }
 }
 
 #ganiyat {
@@ -196,7 +199,7 @@ body {
 .more-info2:hover,
 .more-info2:active {
   padding: 2% 3%;
-  color: #ecb807;
+  color: #f4623a;
 }
 
 .hide-caption,
@@ -235,12 +238,12 @@ body {
 
 .view-project-btn,
 .view-project-btn2 {
-  background-color: #ecb807;
+  background-color: #f4623a;
   color: white;
 }
 .view-project-btn a,
 .view-project-btn2 a {
-  background-color: #ecb807;
+  background-color: #f4623a;
   margin-right: 10px;
 }
 
@@ -277,7 +280,7 @@ body {
 .later-button:hover,
 .later-button:active {
   /* transform: scale(1.2); */
-  color: #ecb807;
+  color: #f4623a;
 }
 
 .full-info-btn {
@@ -291,4 +294,36 @@ body {
 .major-project img {
   margin: 5px;
   /* filter: brightness(60%); */
+}
+
+.main-info {
+  border: 2px solid #212529;
+  background-color: #212529;
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  padding: 5px 5px;
+  max-width: 700px;
+  margin-bottom: 30px;
+  margin-top: -2px;
+  height: 100px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.main-info p {
+  margin-bottom: 0px;
+}
+
+.main-info span {
+  color: #f4623a !important;
+}
+
+.portfolio-item {
+  margin-bottom: 0px !important;
+}
+
+.portfolio-item,
+.main-info {
+  /* margin-left: 2px;
+  margin-right: 2px; */
 }

@@ -17,7 +17,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #ecb807;
+  --bs-yellow: #f4623a;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -34,10 +34,10 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1d809f;
-  --bs-secondary: #ecb807;
+  --bs-secondary: #f4623a;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
-  --bs-warning: #ecb807;
+  --bs-warning: #f4623a;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
@@ -3174,8 +3174,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-secondary:hover {
   color: #000;
@@ -3208,8 +3208,8 @@ fieldset:disabled .btn {
 .btn-secondary:disabled,
 .btn-secondary.disabled {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 
 .btn-success {
@@ -3294,8 +3294,8 @@ fieldset:disabled .btn {
 
 .btn-warning {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-warning:hover {
   color: #000;
@@ -3328,8 +3328,8 @@ fieldset:disabled .btn {
 .btn-warning:disabled,
 .btn-warning.disabled {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 
 .btn-danger {
@@ -3488,13 +3488,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-  color: #ecb807;
-  border-color: #ecb807;
+  color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-outline-secondary:hover {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-check:focus + .btn-outline-secondary,
 .btn-outline-secondary:focus {
@@ -3506,8 +3506,8 @@ fieldset:disabled .btn {
 .btn-outline-secondary.active,
 .btn-outline-secondary.dropdown-toggle.show {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus,
@@ -3518,7 +3518,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-secondary:disabled,
 .btn-outline-secondary.disabled {
-  color: #ecb807;
+  color: #f4623a;
   background-color: transparent;
 }
 
@@ -3593,13 +3593,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  color: #ecb807;
-  border-color: #ecb807;
+  color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-outline-warning:hover {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-check:focus + .btn-outline-warning,
 .btn-outline-warning:focus {
@@ -3611,8 +3611,8 @@ fieldset:disabled .btn {
 .btn-outline-warning.active,
 .btn-outline-warning.dropdown-toggle.show {
   color: #000;
-  background-color: #ecb807;
-  border-color: #ecb807;
+  background-color: #f4623a;
+  border-color: #f4623a;
 }
 .btn-check:checked + .btn-outline-warning:focus,
 .btn-check:active + .btn-outline-warning:focus,
@@ -3623,7 +3623,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-warning:disabled,
 .btn-outline-warning.disabled {
-  color: #ecb807;
+  color: #f4623a;
   background-color: transparent;
 }
 
@@ -6792,7 +6792,7 @@ fieldset:disabled .btn {
 }
 
 .link-secondary {
-  color: #ecb807;
+  color: #f4623a;
 }
 .link-secondary:hover,
 .link-secondary:focus {
@@ -6816,7 +6816,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-  color: #ecb807;
+  color: #f4623a;
 }
 .link-warning:hover,
 .link-warning:focus {
@@ -7249,7 +7249,7 @@ fieldset:disabled .btn {
 }
 
 .border-secondary {
-  border-color: #ecb807 !important;
+  border-color: #f4623a !important;
 }
 
 .border-success {
@@ -7261,7 +7261,7 @@ fieldset:disabled .btn {
 }
 
 .border-warning {
-  border-color: #ecb807 !important;
+  border-color: #f4623a !important;
 }
 
 .border-danger {
@@ -11904,7 +11904,7 @@ footer.footer .social-link:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  /* background-color: rgba(33, 37, 41, 0.2); */
   position: absolute;
   top: 0;
   bottom: 0;
